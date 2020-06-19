@@ -1,6 +1,4 @@
-1) in each equivalent class (nodes),  check each URI how to mannually annotate that by resolve the URI in the web browser (google chrome .e.g)
-2) if not any description, then we put in to Triply LOD-a-lot:
-https://krr.triply.cc/krr/lod-a-lot/browser?resource=http%3A%2F%2Fdbpedia.org%2Fresource%2FOb_ama
+
 
 3) The annoation follows the format
 CSV file with the
@@ -8,7 +6,32 @@ CSV file with the
 
 
 
+
+
+5) Juypter notebook to visualise
+TODO for Joe
+
+
+6) retrieve the data and  divide the data between Shuai and Joe:
+20
+let Joe check the data from mine
+
+
+7) How to annotate
+>  in each equivalent class (nodes),  check each URI how to mannually annotate that by resolve the URI in the web browser (google chrome .e.g)
+> if not any description, then we put in to Triply LOD-a-lot:
+https://krr.triply.cc/krr/lod-a-lot/browser?resource=http%3A%2F%2Fdbpedia.org%2Fresource%2FOb_ama
+> Do not look at sameas
+> if no useful information: assign can't tell
+> Result : CSV file of four collumns
+
 4) description file for each equivalent class
-1: Barack Obama
+1: Barack Obama: count
 2: XXX
 3: XXEY
+
+Python Transfer between two kinds of files with or without the class description .
+> 0 is always "cannot tell"
+
+7) TODO:
+explore what it would be like dealing with Category or Lists
