@@ -1,0 +1,14 @@
+1) in each equivalent class (nodes),  check each URI how to mannually annotate that by resolve the URI in the web browser (google chrome .e.g)
+2) if not any description, then we put in to Triply LOD-a-lot:
+https://krr.triply.cc/krr/lod-a-lot/browser?resource=http%3A%2F%2Fdbpedia.org%2Fresource%2FOb_ama
+
+3) The annoation follows the format
+CSV file with the
+<URI>, <Entity description in English>, <class>, <comment>
+
+
+
+4) description file for each equivalent class
+1: Barack Obama
+2: XXX
+3: XXEY
