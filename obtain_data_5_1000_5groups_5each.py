@@ -98,6 +98,7 @@ for V in range (5): # 50 - 999, 5 groups
         file =  open(file_name, 'w+', newline='')
         writer = csv.writer(file)
         writer.writerow([ "Entity"])
+        terms = [ r[1:-1] for r in terms]
         for t in terms:
             writer.writerow([t])
         g = obtain_graph(terms)
