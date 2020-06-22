@@ -51,6 +51,24 @@ def read_graph_csv(file_name):
     return g
 
 
+with open(path) as csv_file:
+    csv_reader = csv.reader(csv_file, delimiter=' ')
+    count = 0
+    for row in csv_reader:
+        index = int(row[0])
+        terms = []
+        for i in range (len (row)):
+            if i > 0:
+                # print (index, row[i])
+                terms.append(row[i])
+        sameAs_dic[index] = terms
+        # print ('\n')
+        count += 1
+        if count % 100000 == 0:
+            print (count)
+
+
+
 # step 2:
 sample_size = 5
 step = (1000 - 50)/5
