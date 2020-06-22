@@ -21,10 +21,10 @@ def obtain_graph(list_terms):
     # add these nodes in it
     g.add_nodes_from(list_terms)
     for n in list_terms:
-        print ('term = ', n)
+        # print ('term = ', n)
         (triples, cardi) = hdt_file.search_triples(n, sameas, "")
         for (_,_,o) in triples:
-            print ('\to: ', o)
+            # print ('\to: ', o)
             if o in list_terms:
                 g.add_edge(n, o)
         (triples, cardi) = hdt_file.search_triples("", sameas, n)
@@ -68,8 +68,8 @@ with open(path) as csv_file:
         count += 1
         if count % 1000000 == 0:
             print (count)
-        if count > 3000000:
-            break
+        # if count > 3000000:
+        #     break
 
 
 
