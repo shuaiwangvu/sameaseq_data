@@ -21,8 +21,10 @@ def obtain_graph(list_terms):
     # add these nodes in it
     g.add_nodes_from(list_terms)
     for n in list_terms:
+        print ('term = ', n)
         (triples, cardi) = hdt_file.search_triples(n, sameas, "")
         for (_,_,o) in triples:
+            print ('\to: ', o)
             if o in list_terms:
                 g.add_edge(n, o)
         (triples, cardi) = hdt_file.search_triples("", sameas, n)
@@ -64,8 +66,10 @@ with open(path) as csv_file:
         sameAs_dic[index] = terms
         # print ('\n')
         count += 1
-        if count % 100000 == 0:
+        if count % 1000000 == 0:
             print (count)
+        if count > 3000000:
+            break
 
 
 
@@ -80,7 +84,7 @@ for V in range (5): # 50 - 999, 5 groups
     for k in sameAs_dic.keys():
         terms = sameAs_dic[k] # k = group_id
         terms = [ r[1:-1] for r in terms]
-        print (terms)
+        # print (terms)
         VM_id = len(terms)  # an VM id
         if VM_id >= start + (V)*step and VM_id < start + (V+1)*step:
             collect_data_VM.append((k,sameAs_dic[k]))
