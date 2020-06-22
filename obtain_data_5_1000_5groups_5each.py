@@ -12,7 +12,7 @@ hdt_file = HDTDocument(PATH_LOD)
 sameAs_dic = {}
 
 # path = '/Users/sw-works/Documents/backbone/sameAs_data/id2terms_0-99.csv'
-path = './closure_all/id2terms_all.csv'
+path = '/home/finn/backbone_folder/SameAsEq/generate_data/closure_all/id2terms_all.csv'
 
 
 
