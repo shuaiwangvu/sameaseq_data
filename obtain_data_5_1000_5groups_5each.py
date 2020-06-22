@@ -79,6 +79,7 @@ for V in range (5): # 50 - 999, 5 groups
     collect_data_VM = []
     for k in sameAs_dic.keys():
         terms = sameAs_dic[k] # k = group_id
+        terms = [ r[1:-1] for r in terms]
         VM_id = len(terms)  # an VM id
         if VM_id >= start + (V)*step and VM_id < start + (V+1)*step:
             collect_data_VM.append((k,sameAs_dic[k]))
