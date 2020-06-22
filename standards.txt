@@ -1,3 +1,22 @@
+I have picked 5 equivalent classes for each of the 5 group between 50 and 999.
+
+Shuai:
+ANNit_Nodes_1_47066.csv		ANNit_Nodes_3_411336.csv ANNit_Nodes_3_240577.csv
+ANNit_Nodes_0_14514123.csv	ANNit_Nodes_2_16494273.csv	ANNit_Nodes_3_41160341.csv
+ANNit_Nodes_0_337339.csv	ANNit_Nodes_2_21444.csv		ANNit_Nodes_4_29908.csv
+ANNit_Nodes_0_3685.csv		ANNit_Nodes_2_30252.csv		ANNit_Nodes_4_58283.csv
+ANNit_Nodes_1_11116.csv
+
+Joe:
+ANNit_Nodes_0_1140988.csv
+ANNit_Nodes_0_4610314.csv	ANNit_Nodes_2_344689.csv	ANNit_Nodes_4_58960.csv
+ANNit_Nodes_2_9291.csv		ANNit_Nodes_4_6544.csv
+ANNit_Nodes_1_12745.csv		ANNit_Nodes_3_16594435.csv	ANNit_Nodes_4_706682.csv
+ANNit_Nodes_1_14565534.csv
+ANNit_Nodes_1_14872.csv		ANNit_Nodes_3_337514.csv
+
+
+
 
 
 3) The annoation follows the format
