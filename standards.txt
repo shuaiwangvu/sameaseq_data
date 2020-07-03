@@ -19,9 +19,8 @@ ANNit_Nodes_1_14872.csv		ANNit_Nodes_3_337514.csv
 
 
 
-3) The annoation follows the format
-CSV file with the
-<URI>, <Entity description in English>, <class>, <comment>
+3) The annotation are saved in a TSV file with the following format:
+<IRI>\t<Description in English>\t<Class>
 
 
 
@@ -36,13 +35,18 @@ TODO for Joe
 let Joe check the data from mine
 
 
-7) How to annotate
->  in each equivalent class (nodes),  check each URI how to mannually annotate that by resolve the URI in the web browser (google chrome .e.g)
-> if not any description, then we put in to Triply LOD-a-lot:
-https://krr.triply.cc/krr/lod-a-lot/browser?resource=http%3A%2F%2Fdbpedia.org%2Fresource%2FOb_ama
-> Do not look at sameas
-> if no useful information: assign can't tell
-> Result : CSV file of four collumns
+7) How to annotate:
+In each equivalent class (nodes), check each IRI and manually annotate:
+> by resolving the IRI in your Web browser (e.g. Google chrome)
+> checking its description in the LOD-a-lot dataset where the owl:sameAs were extracted in the first place (e.g. https://krr.triply.cc/krr/lod-a-lot/browser?resource=http%3A%2F%2Fdbpedia.org%2Fresource%2FOb_ama)
+
+IMPORTANT:
+> Do not look at owl:sameAs links
+> Do not look at IRI for annotating entity (but look at labels, comments, abstracts, rdf:type, longitude, latitude, population, etc.)
+> The use of Google translate is recommended
+> We do not distinguish between information resources and non-information resources
+> Make sure to annotate Wikimedia disambiguation pages as a different class (check ANNit_Nodes_1_12745 for examples)
+> If no useful information to make a sure decision, then assign unknown (with class 0)
 
 4) description file for each equivalent class
 1: Barack Obama: count
