@@ -1,0 +1,51 @@
+path:
+
+/Users/sw-works/Documents/backbone/LabelDataWithJoe/shuai-annotations/ANNit_Nodes_0_14514123.csv
+
+Bottle_deposit = can_deposite = container_deposit = bottle_reuse
+Container_deposit_legislation = Container_deposit_law
+reusable_bottle = returnable_bottle
+unknown
+
+(may need a revisit?)
+
+----
+path:
+/Users/sw-works/Documents/backbone/LabelDataWithJoe/shuai-annotations/ANNit_Nodes_0_337339.csv
+
+Jérémie_Aliadière
+
+very confident about all the annotations. no need to double check.
+---
+path:
+/Users/sw-works/Documents/backbone/LabelDataWithJoe/shuai-annotations/ANNit_Nodes_3_41160341.csv
+
+everything is unknown !!!!!
+
+---
+
+path:
+/Users/sw-works/Documents/backbone/LabelDataWithJoe/shuai-annotations/ANNit_Nodes_0_3685.csv
+
+952 - year, the number, or unknown. Very hard to annotate!
+
+--
+
+
+path:
+/Users/sw-works/Documents/backbone/LabelDataWithJoe/shuai-annotations/ANNit_Nodes_1_11116.csv
+function = mathematical function
+value = the output of a function
+function/job = a job in a company, in a work, routine, etc.
+
+The term job may refer to: a job (biology), explaining why the features remain by selecting a function (computer science), or routine, is part of the code within a large program, to accomplish a specific task and function (engineering), related to a specific feature of the system and function (language) In linguistics, a method for achieving a goal using language is a function (mathematics), which is an abstract entity that is associated with an input to a compatible output according to some rules. Drinks, is a beverage company based in Redondo Beach, California.
+
+
+
+
+
+Notes:
+
+We need to say that we are using DBpedia entries on the new DBpedia redirect links :(
+A lot disambiguition pages
+'Function' can be so general as linguistically confusing.
