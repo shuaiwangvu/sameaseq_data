@@ -1,11 +1,14 @@
 path:
 
-/Users/sw-works/Documents/backbone/LabelDataWithJoe/shuai-annotations/ANNit_Nodes_0_14514123.csv
+/Users/sw-works/Documents/backbone/LabelDataWithJoe/shuai-annotations/Done/ANNit_Nodes_0_14514123.csv
 
-Bottle_deposit = can_deposite = container_deposit = bottle_reuse
+Bottle_deposit = reuse of bottles = can_deposite = container_deposit = bottle_reuse = the system/norm that people recycle containers
 Container_deposit_legislation = Container_deposit_law
 reusable_bottle = returnable_bottle
 unknown
+
+warranty and deposit (the money returned) are too few to form its own category so treated as unknown.
+
 
 (may need a revisit?)
 
@@ -34,14 +37,24 @@ path:
 
 path:
 /Users/sw-works/Documents/backbone/LabelDataWithJoe/shuai-annotations/ANNit_Nodes_1_11116.csv
-function = mathematical function
-value = the output of a function
-function/job = a job in a company, in a work, routine, etc.
+mathematical_function = mathematical function
+function_disambiguition =
+propositional_function =
+real_function = real-valued function.
+value = value of a function or the output of a function
+value_disambiguition = the output of a function or the closure in computer programming
+job (general function) = A general description of function: a mathematical function, a job in a company, in a work, routine, etc.
+band = a band called f(x)
+
+job and function_disambiguition both have the meaning for general description ???!!!
 
 The term job may refer to: a job (biology), explaining why the features remain by selecting a function (computer science), or routine, is part of the code within a large program, to accomplish a specific task and function (engineering), related to a specific feature of the system and function (language) In linguistics, a method for achieving a goal using language is a function (mathematics), which is an abstract entity that is associated with an input to a compatible output according to some rules. Drinks, is a beverage company based in Redondo Beach, California.
 
+disambiguite pages are often typed dbo:wikiPageDisambiguates
 
+unknown:
 
+too rare to be annotated as a class.
 
 
 Notes:
@@ -49,3 +62,6 @@ Notes:
 We need to say that we are using DBpedia entries on the new DBpedia redirect links :(
 A lot disambiguition pages
 'Function' can be so general as linguistically confusing.
+
+
+UNA (multilingual?) + disambiguition page?
