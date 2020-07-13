@@ -52,9 +52,37 @@ The term job may refer to: a job (biology), explaining why the features remain b
 
 disambiguite pages are often typed dbo:wikiPageDisambiguates
 
+-----
+path  : /Users/sw-works/Documents/backbone/LabelDataWithJoe/shuai-annotations/ANNit_Nodes_2_30252.csv
+
+
+卢森尼亚语:
+教會斯拉夫語: Church Slavonic = New Church Slavonic
+古教會斯拉夫語: old church slavonic = old slavnic
+
+
+Rusyn (Rosienu / Rosieni language): Ruthenian (Carpatho-Russian) or Ruthenian languages, Rutè
+also known in English as Ruthene UK /rʊˈθiːn/ US /ruːˈθiːn/ (sometimes Ruthenian), is a Carpathian Ukrainian language version spoken by the Rusyns of Eastern Europe.
+There are controversial political implications about the nature of Rusyn as a language or dialect.
+Some linguists treat it as a distinct language (with its own ISO 639-3 code), whereas some Ukrainian scholars of Slavic languages treat it as a dialect of Ukrainian.
+<some translators translate it to Russian. I didn't make a seperate class for Russian Language >
+Note: East Russian Language (http://sh.dbpedia.org/resource/Istočnorusinski_jezik) is actually referring to Ruthenian. So I merged it to Ruthenian.
+
+
+
+斯拉夫语族: Slavic languages : Slavic languages Russian Ukrainian Belarusian Polish Polish Czech Slovak Serbian Bulgarian Croatian Macedonian
+The Slavic languages, a group of closely related languages of the Slavic peoples and a subgroup of the Indo-European language family have speakers in most of Eastern Europe, in large parts of the Balkans, in parts of Central Europe and in the northern part of Asia.
+
+
+Ecclesiastical Slav = old bulgarian = Ancient Macedonian = old slavic language
+Ancient ecclesiastical Slavonic language
+Ancient Ecclesiastical Slavonic, also known as Ancient Bulgarian or Ancient Macedonian, was the first literary Slavic language, based on the ancient Slavic dialect of the greater Thessaloniki area, and has been used since the 9th century by Byzantine missionaries Cyril and Methodius. translation of the Bible and other ancient ecclesiastical texts, and for some of their own texts.
+
+
+=======
 unknown:
 
-too rare to be annotated as a class.
+too rare to be annotated as a class. -> done as unknown . not a seperate label .
 
 
 Notes:
@@ -64,4 +92,8 @@ A lot disambiguition pages
 'Function' can be so general as linguistically confusing.
 
 
-UNA (multilingual?) + disambiguition page?
+
+
+Google failed to translate :
+http://cv.dbpedia.org/resource/Славян_чĕлхисем
+http://vi.dbpedia.org/resource/Ngữ_tộc_Slav
