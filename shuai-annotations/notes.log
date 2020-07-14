@@ -120,6 +120,25 @@ Rhondda Cynon Taf / Castell-nedd Port Talbot
 A place in the UK.
 
 
+==
+path:
+/Users/sw-works/Documents/backbone/LabelDataWithJoe/shuai-annotations/Done/ANNit_Nodes_1_395175.csv
+
+Iguacu_river: Río Iguazú / Rio Iguaçu:
+
+Iguazu_Waterfall: Cataratas do Iguaçu / Cataratas del Iguazú:
+
+Virginia_Beach: Virginia Beach / the city
+
+Iguacu_disambiguition: a disambiguition page for iguacu
+Problem is that some of these pages are not type DBpedia Disambiguation Page
+
+The following are about its disambiguations:
+  dbr:Foz_do_Iguaçu
+  dbr:Iguaçu_National_Park
+  dbr:Iguaçu_Territory
+  dbr:Nova_Iguaçu
+  dbr:Nova_Iguaçu_de_Goiás
 
 
 =======
@@ -161,8 +180,48 @@ Some nodes from rare languages are barely labelled. It was mostly just a transla
 why cyc has no labels or description?
 http://sw.cyc.com/2006/07/27/cyc/RhonddaCynonTaff-RegionWales
 
+The language BR was not included in Google translate/
+
+
+also lacks in details:
+http://commons.dbpedia.org/resource/Iguazu_Falls
+
+some dbpedia nodes of certain languages are poor in lables/comments/extra info : ka, cv, ne, ur
+
+
+
+cv language not translated by Google?
+
+There are redirect in LOD-a-lot?
+http://dbpedia.org/resource/Cataratas_del_Iguazú
+
+no info about http://linkedgeodata.org/triplify/node158263110
+
+lack of info : http://mpii.de/yago/resource/Virginia_Beach
+
+http://sws.geonames.org/3433488/ does not have labels. Only just a location :(
 
 TODO : 
 Where does the errors come from?
 Revise Wikidata entries.
 Check how they corresponding YAGO, Wikidata, DBpedia, etc.
+Revise all br cv language entries.
+http://br.dbpedia.org/resource/Virginia_Beach
+Double check disambiguition pages.
+What if there is a conflict between left and right?
+
+
+What about other large data sets?
+
+How many dbpedia nodes are there?
+some entiteis are more "talked about" in certain  languages : Robert/ Iguacu river/fall.
+
+Is it balanced? Each entity .
+
+attack: further insert X owl:sameas links would mess up X % of the data .
+How about sameas at class level ?
+--
+A quatitative measurement of errorneous owl:sameas links in the LOD cloud.
+
+wordnetexplorer:
+http://wordnet.rkbexplorer.com/id/synset-Iguazu-noun-1
