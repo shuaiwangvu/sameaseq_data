@@ -102,6 +102,22 @@ India2012: Großer Preis von Indien 2012
 Canada2012: Großer Preis von Kanada 2012
 
 
+-====
+path:
+/Users/sw-works/Documents/backbone/LabelDataWithJoe/shuai-annotations/Done/ANNit_Nodes_0_712342.csv
+
+Robert: Robert I of France
+elected King of West Francia from 922 to 923.
+Before his election to the throne he was Count of Poitiers, Count of Paris and Marquis of Neustria and Orléans.
+
+
+
+
+
+
+
+
+
 =======
 unknown:
 
@@ -120,3 +136,26 @@ A lot disambiguition pages
 Google failed to translate :
 http://cv.dbpedia.org/resource/Славян_чĕлхисем
 http://vi.dbpedia.org/resource/Ngữ_tộc_Slav
+
+
+
+Learning sequence:
+To get to know the content, we first go to the wikipedia pages and check the corresponding DBpedia representation and fix a few labels.
+
+Consistency: if two nodes with the same description, they should be annotated the same label.
+A lot of freebase has no labels or comments :(
+http://rdf.freebase.com/ns/m.0xs4q
+
+Wikidata has alias. Should I take it as the label?
+http://wikidata.dbpedia.org/resource/Q208082
+
+namespace of fu-berlin.de is of bad quality:
+http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Robert_I_of_France
+
+Some nodes from rare languages are barely labelled. It was mostly just a translation from existing languages.
+
+
+TODO : 
+Where does the errors come from?
+Revise Wikidata entries.
+Check how they corresponding YAGO, Wikidata, DBpedia, etc.
