@@ -10,7 +10,6 @@ unknown
 warranty and deposit (the money returned) are too few to form its own category so treated as unknown.
 
 
-(may need a revisit?)
 
 ----
 path:
@@ -19,20 +18,8 @@ path:
 Jérémie_Aliadière
 
 very confident about all the annotations. no need to double check.
----
-path:
-/Users/sw-works/Documents/backbone/LabelDataWithJoe/shuai-annotations/ANNit_Nodes_3_41160341.csv
 
-everything is unknown !!!!!
-
----
-
-path:
-/Users/sw-works/Documents/backbone/LabelDataWithJoe/shuai-annotations/ANNit_Nodes_0_3685.csv
-
-952 - year, the number, or unknown. Very hard to annotate!
-
---
+----
 
 
 path:
