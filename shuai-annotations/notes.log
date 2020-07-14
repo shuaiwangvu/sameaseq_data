@@ -111,9 +111,13 @@ elected King of West Francia from 922 to 923.
 Before his election to the throne he was Count of Poitiers, Count of Paris and Marquis of Neustria and Orléans.
 
 
+===
+path:
+/Users/sw-works/Documents/backbone/LabelDataWithJoe/shuai-annotations/Done/ANNit_Nodes_0_1133953.csv
 
-
-
+Rhondda_Cynon_Taf:
+Rhondda Cynon Taf / Castell-nedd Port Talbot
+A place in the UK.
 
 
 
@@ -153,6 +157,9 @@ namespace of fu-berlin.de is of bad quality:
 http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Robert_I_of_France
 
 Some nodes from rare languages are barely labelled. It was mostly just a translation from existing languages.
+
+why cyc has no labels or description?
+http://sw.cyc.com/2006/07/27/cyc/RhonddaCynonTaff-RegionWales
 
 
 TODO : 
